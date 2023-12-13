@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="111.0" prefWidth="780.0" style="-fx-background-color: linear-gradient(to right, #85d5bd, #63bbae); -fx-border-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button graphicTextGap="2.0" layoutX="694.0" layoutY="30.0" mnemonicParsing="false" onAction="#RemoveClock" prefHeight="42.0" prefWidth="76.0" text="🗑" wrapText="true">
+         <font>
+            <Font name="AdobeFangsongStd-Regular" size="30.0" />
+         </font></Button>
+      <Label fx:id="BrandLabel" alignment="CENTER" layoutX="57.0" layoutY="13.0" prefHeight="30.0" prefWidth="99.0" text="Brand:">
+         <font>
+            <Font name="AdobeFangsongStd-Regular" size="20.0" />
+         </font></Label>
+      <Label fx:id="BrandValue" alignment="CENTER" layoutX="130.0" layoutY="12.0" prefHeight="30.0" prefWidth="99.0" text="Brand">
+         <font>
+            <Font name="AdobeFangsongStd-Regular" size="20.0" />
+         </font></Label>
+      <Label fx:id="PriceLabel" alignment="CENTER" layoutX="57.0" layoutY="41.0" prefHeight="30.0" prefWidth="99.0" text="Price:">
+         <font>
+            <Font name="AdobeFangsongStd-Regular" size="20.0" />
+         </font></Label>
+      <Label fx:id="PriceValue" alignment="CENTER" layoutX="130.0" layoutY="41.0" prefHeight="30.0" prefWidth="99.0" text="Price">
+         <font>
+            <Font name="AdobeFangsongStd-Regular" size="20.0" />
+         </font></Label>
+      <Label fx:id="TypeLabel" alignment="CENTER" layoutX="57.0" layoutY="67.0" prefHeight="30.0" prefWidth="99.0" text="Type:">
+         <font>
+            <Font name="AdobeFangsongStd-Regular" size="20.0" />
+         </font></Label>
+      <Label fx:id="TypeValue" alignment="CENTER" layoutX="130.0" layoutY="66.0" prefHeight="30.0" prefWidth="99.0" text="Type">
+         <font>
+            <Font name="AdobeFangsongStd-Regular" size="20.0" />
+         </font></Label>
+      <Label fx:id="TimeLabel" alignment="CENTER" layoutX="294.0" layoutY="2.0" text="Time:">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="TimeValue" alignment="CENTER" layoutX="346.0" layoutY="38.0" prefHeight="35.0" prefWidth="84.0" text="03:03:03">
+         <font>
+            <Font name="AdobeFangsongStd-Regular" size="20.0" />
+         </font></Label>
+      <Line endX="-52.0" endY="55.0" layoutX="337.0" layoutY="55.0" startX="-52.0" startY="-53.0" stroke="#00000072" />
+      <Button fx:id="changeTime" layoutX="497.0" layoutY="35.0" mnemonicParsing="false" onAction="#changeTime" prefHeight="42.0" prefWidth="47.0" text="⭮">
+         <font>
+            <Font name="AdobeFangsongStd-Regular" size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="NumLabel" alignment="CENTER" layoutY="-1.0" prefHeight="30.0" prefWidth="57.0" text="n">
+         <font>
+            <Font name="AdobeFangsongStd-Regular" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="skipTime" layoutX="442.0" layoutY="35.0" mnemonicParsing="false" onAction="#skipTime" prefHeight="42.0" prefWidth="47.0" text="▶▶">
+         <font>
+            <Font name="AdobeFangsongStd-Regular" size="20.0" />
+         </font>
+      </Button>
+      <Line endX="-52.0" endY="55.0" layoutX="730.0" layoutY="55.0" startX="-52.0" startY="-53.0" stroke="#00000072" />
+   </children>
+</Pane>
