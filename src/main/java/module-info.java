@@ -6,6 +6,6 @@ module com.example.clockfx {
     requires org.kordamp.ikonli.javafx;
     requires com.google.gson;
 
-    opens com.example.clockfx to javafx.fxml;
+    opens com.example.clockfx to javafx.fxml, com.google.gson;
     exports com.example.clockfx;
 }
